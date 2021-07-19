@@ -1,0 +1,112 @@
+body{
+margin: o;
+padding: o;
+height: 100vh;
+
+background-color: burlywood;
+
+box-sizing: border-box;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Inter', sans-serif;
+}
+#sendagenda{
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 1.2em 10em 0;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.input{
+    display: flex;
+    margin: 1em;
+
+}
+.input label{
+    display: flex;
+    align-items: center;
+    margin-right: 1em;
+    font-size: 20px;
+
+}
+.input input{
+    height: 2em;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+
+}
+.input input:focus{
+    border-bottom: 2px solid black
+}
+
+#radio h2{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+
+}
+#radio label{
+
+    margin: 1em;
+}
+#radio h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+#iten4 h4{
+    text-align: center;
+    font-size: 25px;
+    margin: 1%;
+    padding: 1%;
+}
+#textarea{
+    margin: 0 10%;
+    resize: none;
+    outline: none;
+    width: 80%;
+    border-radius: 2px;
+    font-size: 16px;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sendbtn{
+    height: 2em;
+    width: 10em;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 0%;
+    padding: 0%;
+    color:black;
+
+}
+#sendbtn:hover{
+    cursor: pointer;
+    color: white;
+background-color: burlywood;
+}
